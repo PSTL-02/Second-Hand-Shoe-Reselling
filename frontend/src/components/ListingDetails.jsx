@@ -211,7 +211,7 @@ const ListingDetails = ({listing}) => {
                         <div className='listing-card-border'>
                             <div className='listing-card'>
                                 <div className='listing-image'>
-                                    <img src={`${baseURL}/public/uploads/${listing.listing_img}`} alt="Listing" />
+                                    <img src={listing.listing_img} alt="Listing" />
                                 </div>
                                 <h3 className='shoe-price'>${listing.price}</h3>
                                 <div className='listing-card-info'>
